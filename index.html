@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My web Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="page" class="site">
+        <div id="hero">
+            <header class="site-header">
+                <div class="container">
+                    <div class="row flex space-between align-center">
+
+                        <div class="site-logo">
+                            <a href="javascript:">
+                                <img src="assets/images/logo.png" alt="" class="logo">
+                            </a>
+                        </div>
+
+
+                        <div class="site-nav-wrap float-end">
+                            <nav id="site-navigation" class="main-navigation">
+                                <ul>
+                                    <li>
+                                        <a href="javascript:" class="btn white contact-agent">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.5 12.69V14.94C16.5009 15.1489 16.4581 15.3556 16.3744 15.547C16.2907 15.7384 16.168 15.9102 16.0141 16.0514C15.8602 16.1926 15.6784 16.3001 15.4806 16.367C15.2827 16.434 15.073 16.4588 14.865 16.44C12.5571 16.1892 10.3403 15.4006 8.39251 14.1375C6.58038 12.986 5.04401 11.4496 3.89251 9.63751C2.62499 7.68091 1.83619 5.45326 1.59001 3.13501C1.57127 2.92761 1.59592 2.71858 1.66239 2.52123C1.72886 2.32388 1.83569 2.14253 1.97609 1.98873C2.11648 1.83493 2.28736 1.71204 2.47785 1.6279C2.66834 1.54376 2.87427 1.50021 3.08251 1.50001H5.33251C5.69649 1.49643 6.04935 1.62532 6.32533 1.86266C6.60131 2.1 6.78157 2.4296 6.83251 2.79001C6.92748 3.51006 7.1036 4.21706 7.35751 4.89751C7.45842 5.16595 7.48026 5.4577 7.42044 5.73817C7.36062 6.01865 7.22166 6.27609 7.02001 6.48001L6.06751 7.43251C7.13518 9.31017 8.68985 10.8648 10.5675 11.9325L11.52 10.98C11.7239 10.7784 11.9814 10.6394 12.2619 10.5796C12.5423 10.5198 12.8341 10.5416 13.1025 10.6425C13.783 10.8964 14.49 11.0725 15.21 11.1675C15.5743 11.2189 15.9071 11.4024 16.1449 11.6831C16.3828 11.9638 16.5091 12.3222 16.5 12.69Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                                            <span class="text">CONTACT AN AGENT</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="btn nav-hide">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.25 3H15.75V4.5H2.25V3ZM2.25 8.25H11.25V9.75H2.25V8.25ZM2.25 13.5H15.75V15H2.25V13.5Z" fill="white"></path>
+                          </svg>
+                                            <span class="text">Menu</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="main-nav">
+                                    <div class="container-lg">
+                                        <div class="top-box flex space-between align-center">
+                                            <a href="javascript:" class="logo-icon">
+                                                <img src="assets/images/logo.png" alt="" />
+                                            </a>
+                                            <a href="#" class="close"></a>
+                                        </div>
+                                        <div class="bottom-box flex mt-100">
+                                            <div class="left-box">
+                                                <ul class="menu">
+
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12570">
+                                                        <a href="javascript:">Our Process</a>
+                                                        <span class="arrow">
+                                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </span>
+
+                                                    </li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12571">
+                                                        <a href="javascript:">Our Story</a>
+                                                        <span class="arrow">
+                                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </span>
+
+                                                    </li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-13604">
+                                                        <a href="javascript:">Our Homes</a>
+                                                        <span class="arrow">
+                                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </span>
+
+                                                    </li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47">
+                                                        <a href="javascript:">News</a>
+                                                        <span class="arrow">
+                                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                                                    </li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45">
+                                                        <a href="javascript:">Contact</a>
+                                                        <span class="arrow">
+                                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="right-box">
+                                                <div class="login-box">
+                                                    <div class="heading-box text-white"> Client Login </div>
+                                                    <a href="javascript:" class="login text-green">
+                                                        <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M13 14.75V13.25C13 12.4544 12.6839 11.6913 12.1213 11.1287C11.5587 10.5661 10.7956 10.25 10 10.25H4C3.20435 10.25 2.44129 10.5661 1.87868 11.1287C1.31607 11.6913 1 12.4544 1 13.25V14.75" stroke="#058B71" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                  <path d="M7 7.25C8.65685 7.25 10 5.90686 10 4.25C10 2.59315 8.65685 1.25 7 1.25C5.34315 1.25 4 2.59315 4 4.25C4 5.90686 5.34315 7.25 7 7.25Z" stroke="#058B71" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                                                        <span class="text">CLICK TO HERE LOGIN</span>
+                                                    </a>
+
+
+                                                </div>
+                                                <div class="social-box">
+                                                    <div class="heading-box text-white"> Let's Connect </div>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="javascript:">Instagram</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">Facebook</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">Houzz</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                                <div class="banner-buttons">
+                                                    <a href="javascript:" target="" class="btn blue">
+                                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M0.75 4.5V16.5L6 13.5L12 16.5L17.25 13.5V1.5L12 4.5L6 1.5L0.75 4.5Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M6 1.5V13.5" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M12 4.5V16.5" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                          </svg> <span class="text">VIEW OUR FLOOR PLANS</span>
+                                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z" fill="white"></path>
+                                </svg>
+                                                    </a>
+                                                </div>
+                                                <div class="banner-buttons">
+                                                    <a href="javascript:" class="btn blue">
+                                                        <i class="fa fa-user"></i> <span class="text">CONTACT AN AGENT</span>
+                                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z" fill="white"></path>
+                                </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="leaf-img">
+                                        <svg width="321" height="164" viewBox="0 0 321 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M218.537 269.762C218.147 268.943 218.119 268.888 206.557 269.125C198.383 269.288 187.193 269.507 182.27 268.861C174.05 267.778 152.506 262.609 139.627 259.515L137.32 258.96C122.761 255.465 106.212 249.186 104.223 244.436C103.905 243.681 104.06 243.199 104.214 242.907C104.414 242.507 104.877 242.161 105.586 241.87C112.852 238.894 137.466 244.573 146.966 248.722C160.109 254.464 177.865 261.18 188.274 262.8C199.673 264.575 227.447 263.128 228.628 263.064C228.864 263.055 229.1 262.982 229.309 262.845C229.427 262.773 241.271 255.638 251.071 247.512C260.817 239.431 271.916 229.157 272.025 229.057C272.406 228.711 272.57 228.211 272.443 227.783C272.325 227.355 271.934 227.073 271.453 227.064C270.499 227.037 175.422 223.97 141.607 217.582C127.874 214.989 127.965 212.604 128.02 212.34C128.583 209.674 143.369 205.816 148.928 205.252C156.121 204.524 285.249 209.237 286.548 209.283C287.057 209.301 287.565 209.028 287.856 208.582L305.903 180.536C306.148 180.163 306.185 179.726 306.003 179.38C305.821 179.034 305.458 178.834 305.022 178.834C304.768 178.834 278.946 179.244 253.705 177.979C207.32 175.649 204.541 169.78 204.804 168.033C204.868 167.578 205.186 167.123 205.767 166.64C216.53 157.686 291.416 156.466 319.373 156.749C319.899 156.758 320.426 156.439 320.699 155.966L346.294 109.729C346.53 109.301 346.521 108.828 346.239 108.482C345.967 108.155 345.485 108.027 345.013 108.164C344.504 108.309 293.687 122.86 282.379 123.652C273.496 124.271 266.248 122.523 263.905 119.202C262.87 117.728 262.815 115.99 263.732 113.906C264.232 112.759 269.064 108.291 310.008 98.727C332.161 93.5491 354.132 89.4086 354.35 89.3631C354.831 89.2721 355.258 88.9354 355.458 88.4986L391.888 7.0445C392.034 6.7078 392.034 6.3529 391.888 6.0708C391.734 5.7796 391.452 5.5885 391.107 5.543C391.016 5.53391 389.309 5.2973 386.402 4.9424C386.321 4.9242 386.248 4.9151 386.157 4.9151C371.97 3.1861 330.535 -1.3275 305.204 1.4844C289.818 3.1952 273.914 6.1163 261.834 8.6279C261.78 8.637 261.725 8.64611 261.671 8.66431C249.727 11.1486 241.562 13.2052 241.398 13.2507C241.38 13.2507 241.362 13.2598 241.353 13.2689C241.307 13.2871 241.262 13.2962 241.217 13.3144C241.18 13.3326 241.144 13.3417 241.108 13.3599C241.071 13.3781 241.026 13.4054 240.989 13.4236C240.953 13.4418 240.917 13.4691 240.89 13.4873C240.853 13.5146 240.817 13.5419 240.781 13.5692C240.753 13.5965 240.726 13.6238 240.699 13.6511C240.663 13.6875 240.635 13.7148 240.608 13.7512C240.581 13.7785 240.563 13.8149 240.535 13.8422C240.508 13.8786 240.49 13.915 240.463 13.9514C240.445 13.9878 240.417 14.0242 240.399 14.0606C240.39 14.0788 240.381 14.097 240.372 14.1152C239.173 16.9726 211.044 84.2853 208.192 95.1598L207.665 97.1709C205.131 106.963 198.392 132.97 190.817 137.256C189.818 137.821 188.891 137.93 187.911 137.593C186.566 137.129 183.115 131.596 194.986 79.8718C201.407 51.8893 209.218 23.9796 209.291 23.7066C209.409 23.2698 209.282 22.8512 208.955 22.5964C208.628 22.3416 208.147 22.3052 207.702 22.4963C207.602 22.5418 197.611 26.8279 188.419 29.9856C179.146 33.1797 168.555 37.2565 168.456 37.302C168.083 37.4476 167.774 37.7297 167.611 38.0846C166.557 40.3778 141.907 94.4591 140.626 106.144C139.891 112.832 140.881 127.711 141.762 140.824C142.407 150.488 143.015 159.615 142.734 162.918C142.061 170.708 137.357 180.973 133.896 182.192C133.115 182.465 132.443 182.42 131.78 182.047C129.237 180.609 125.958 174.048 124.777 150.961C123.378 123.688 124.577 100.756 128.147 86.3783C131.489 72.9194 142.806 49.1138 142.915 48.8772C143.151 48.3858 143.042 47.8489 142.661 47.5577C142.27 47.2574 141.689 47.2665 141.199 47.5668C140.172 48.2038 116.003 63.1733 107.702 69.334C99.4094 75.4856 84.1687 88.353 84.0143 88.4895C83.7418 88.717 83.5693 89.0173 83.5148 89.3358C83.4694 89.6088 79.2096 116.645 81.3713 134.672C81.7618 137.939 82.4158 142.471 83.1787 147.712C84.8681 159.36 87.1841 175.313 88.1197 188.335C89.591 208.828 86.8662 211.54 85.9943 211.876C84.6047 212.422 83.2241 212.322 81.78 211.567C76.2123 208.673 71.0715 196.406 70.0815 183.648C68.928 168.77 70.6992 105.197 70.7173 104.551C70.7355 104.06 70.4267 103.659 69.9453 103.541C69.4639 103.423 68.9099 103.614 68.5466 104.014C68.3377 104.242 56.4667 117.4 43.8146 133.052C43.7328 133.134 43.6602 133.225 43.5966 133.316C34.1325 145.037 24.2597 158.114 18.5285 168.196C5.41319 191.265 -4.72304 222.505 4.01446 236.574C4.15978 236.81 4.31419 237.047 4.47767 237.275C13.3242 249.869 45.8309 256.84 50.0452 257.704L52.4976 261.189C52.3613 262.946 51.7437 270.799 50.9989 275.595C50.2996 280.136 51.5076 290.227 59.5457 301.675C60.6174 303.204 61.8163 304.76 63.1424 306.325C74.6864 319.939 107.32 317.3 132.67 312.677C162.288 307.281 217.284 272.482 218.365 270.981C218.646 270.617 218.71 270.126 218.537 269.762ZM149.055 202.858C148.837 202.877 126.803 206.189 125.531 212.24C124.85 215.453 129.546 217.828 140.735 219.939C171.535 225.754 252.633 228.821 268.319 229.367C265.158 232.251 258.846 237.948 252.579 243.281C243.778 242.753 133.951 235.964 102.861 222.742C120.999 208.209 138.764 194.031 145.131 189.154C145.994 188.489 147.057 187.68 148.283 186.733C180.081 196.962 278.928 193.877 294.94 193.294L286.212 206.862C274.059 206.407 156.203 202.13 149.055 202.858ZM204.268 164.948C203.124 165.903 202.452 166.959 202.288 168.078C201.68 172.228 206.294 178.015 253.169 180.372C274.441 181.446 296.13 181.328 302.67 181.255L296.512 190.828C286.63 191.192 184.232 194.65 150.726 184.822C156.866 180.063 165.903 173.038 175.931 165.239C184.287 158.732 193.633 151.462 202.933 144.245C215.513 144.354 267.965 137.675 302.806 133.243C316.248 131.533 328.174 130.013 332.642 129.558L318.928 154.337C308.274 154.255 217.565 153.882 204.268 164.948ZM309.781 96.3883C264.15 107.044 262.152 111.585 261.398 113.296C260.163 116.108 260.263 118.683 261.707 120.74C265.031 125.481 274.45 126.591 282.143 126.054C292.379 125.335 332.17 114.206 342.806 111.194L334.014 127.064C331.071 127.292 321.988 128.429 302.86 130.868C270.226 135.027 222.107 141.151 206.094 141.797C224.831 127.256 242.906 113.278 251.816 106.617C270.59 92.5663 366.966 26.9189 386.275 13.7694L353.451 87.1518C349.327 87.9435 329.627 91.7564 309.781 96.3883ZM305.095 3.8686C328.682 1.2478 366.548 5.0789 382.669 6.9626C365.531 18.7016 268.637 85.1771 218.692 121.24C214.995 94.6138 258.265 18.3558 262.579 10.8483C274.504 8.3822 290.045 5.5339 305.095 3.8686ZM206.257 25.5812C204.314 32.6428 197.92 56.1572 192.506 79.7353C179.291 137.311 184.686 139.177 186.721 139.877C188.401 140.45 190.118 140.25 191.843 139.277C199.509 134.936 205.386 115.671 210.118 97.3893L210.635 95.3873C213.297 85.259 239.382 22.651 242.406 15.3801C244.477 14.8705 250.799 13.3326 259.5 11.4944C251.725 25.1171 211.489 97.271 216.33 122.942C206.021 130.404 197.929 136.437 193.278 140.205C185.649 146.384 172.125 157.313 156.321 170.08C157.992 146.338 186.993 41.67 189.691 31.9785C196.185 29.7126 202.897 26.9735 206.257 25.5812ZM139.064 51.5617C135.794 58.6779 128.356 75.4128 125.676 86.2054C122.052 100.802 120.826 123.98 122.234 151.471C123.233 170.999 125.849 181.692 130.227 184.176C131.489 184.895 132.906 184.986 134.432 184.449C139.991 182.483 144.632 170.08 145.259 162.745C145.558 159.269 144.968 150.488 144.296 140.314C143.424 127.283 142.443 112.514 143.151 106.025C144.323 95.3418 167.002 45.1644 169.664 39.304C171.816 38.4759 179.509 35.5548 186.911 32.9613C182.443 49.041 153.914 152.399 153.724 172.2C141.698 181.91 128.519 192.557 115.704 202.895C95.7763 138.221 122.098 66.9407 124.441 60.8346C130.054 57.2128 135.658 53.6911 139.064 51.5617ZM67.5566 184.203C68.4557 195.76 73.2241 210.038 80.2995 213.724C82.3613 214.798 84.4957 214.916 86.6301 214.079C93.6237 211.34 91.6982 188.398 85.7037 147.021C84.9498 141.788 84.2868 137.275 83.9053 134.035C81.9344 117.646 85.3949 93.5491 85.958 89.809C88.4739 87.6887 101.616 76.6595 109.064 71.1358C111.762 69.1338 116.258 66.1308 121.081 62.9913C118.746 69.4978 113.378 85.6958 109.673 106.69C105.24 131.806 102.334 169.106 113.497 204.66C97.2931 217.737 81.8345 230.213 70.245 239.568C43.6965 211.303 45.6765 140.205 45.9036 134.108C55.2042 122.615 64.0779 112.477 68.1015 107.936C67.7655 120.904 66.5393 171.108 67.5566 184.203ZM6.25787 235.127C-1.65311 222.387 7.5476 192.248 20.7265 169.061C25.9309 159.915 34.6048 148.231 43.2696 137.384C42.9335 151.734 43.1061 206.435 63.4603 235.436C64.9226 237.511 66.4939 239.459 68.1651 241.251C58.9916 248.65 52.5975 253.818 50.7355 255.32C46.0035 254.328 14.8319 247.385 6.66659 235.764C6.53035 235.546 6.39411 235.345 6.25787 235.127ZM52.6066 256.703C60.5084 250.333 114.959 206.389 155.713 173.465C172.407 159.988 186.793 148.358 194.75 141.916C222.742 119.238 376.384 13.9969 386.057 7.3721C387.256 7.5177 388.255 7.6451 388.964 7.7361L388.019 9.8473C380.853 14.7249 270.699 89.6543 250.435 104.824C236.593 115.18 200.708 143.108 174.505 163.492C160.726 174.211 148.828 183.475 143.733 187.379C137.166 192.412 118.556 207.272 99.8817 222.232C79.5184 238.558 59.1188 254.974 54.1779 258.96L52.6066 256.703ZM132.588 310.329C107.865 314.834 76.1124 317.5 65.2223 304.66C54.3777 291.865 52.8245 280.045 53.5148 275.576C54.2505 270.799 54.85 263.31 55.0135 261.18C56.0125 260.37 58.4921 258.377 62.0434 255.52C99.8907 280.427 170.417 286.651 186.185 287.761C168.719 297.335 147.384 307.636 132.588 310.329ZM190.081 285.605C190.018 285.596 189.972 285.559 189.9 285.559C189.064 285.523 106.421 281.2 64.1869 253.791C73.0243 246.675 86.7845 235.618 100.59 224.544C129.645 237.675 231.462 244.427 249.872 245.546C249.772 245.628 249.663 245.719 249.563 245.801C240.844 253.027 230.463 259.469 228.519 260.662C225.168 260.825 199.509 262.027 189.055 260.407C178.864 258.823 161.326 252.18 148.31 246.493C139.682 242.725 113.678 236.073 104.895 239.668C103.469 240.25 102.479 241.087 101.943 242.161C101.389 243.271 101.353 244.436 101.834 245.601C105.24 253.736 135.068 260.98 136.339 261.289L138.646 261.845C151.562 264.948 173.179 270.135 181.535 271.236C186.648 271.909 197.493 271.691 206.203 271.518C209.01 271.463 211.871 271.409 213.914 271.4C209.673 274.139 200.826 279.59 190.081 285.605Z" fill="#7F6A65"></path>
+                        </svg>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+            <section class="d-flex align-items-center">
+                <div class="container">
+                    <div class="">
+                        <div class="d-flex flex-column justify-content-center pt-4 pt-lg-0">
+                            <div class="banner-text text-center">
+                                <p>DISCOVER THE HAGOOD DIFFERENCE</p>
+                                <h1>Building More Than
+                                    <Br> your Dream Home</Br>
+                                </h1>
+                                <div class="banner-buttons">
+                                    <a target="" href="javascript:" class="btn blue">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.75 4.5V16.5L6 13.5L12 16.5L17.25 13.5V1.5L12 4.5L6 1.5L0.75 4.5Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M6 1.5V13.5" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M12 4.5V16.5" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                                        <span class="text">Build On Your Lot</span>
+                                    </a>
+                                    <a target="" href="javascript:" class="btn blue">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 15C15 15.1989 14.921 15.3897 14.7803 15.5303C14.6397 15.671 14.4489 15.75 14.25 15.75H3.75C3.55109 15.75 3.36032 15.671 3.21967 15.5303C3.07902 15.3897 3 15.1989 3 15V8.25H0.75L8.49525 1.209C8.63333 1.08336 8.81331 1.01373 9 1.01373C9.18669 1.01373 9.36667 1.08336 9.50475 1.209L17.25 8.25H15V15ZM13.5 14.25V6.86775L9 2.77725L4.5 6.86775V14.25H13.5ZM9 12.75L6.48075 10.2307C6.32405 10.074 6.19975 9.88802 6.11494 9.68328C6.03014 9.47854 5.98649 9.25911 5.98649 9.0375C5.98649 8.81589 6.03014 8.59646 6.11494 8.39172C6.19975 8.18698 6.32405 8.00095 6.48075 7.84425C6.63745 7.68755 6.82348 7.56325 7.02822 7.47844C7.23296 7.39364 7.45239 7.34999 7.674 7.34999C7.89561 7.34999 8.11504 7.39364 8.31978 7.47844C8.52452 7.56325 8.71055 7.68755 8.86725 7.84425L9 7.977L9.13275 7.84425C9.28945 7.68755 9.47548 7.56325 9.68022 7.47844C9.88496 7.39364 10.1044 7.34999 10.326 7.34999C10.5476 7.34999 10.767 7.39364 10.9718 7.47844C11.1765 7.56325 11.3626 7.68755 11.5193 7.84425C11.6759 8.00095 11.8003 8.18698 11.8851 8.39172C11.9699 8.59646 12.0135 8.81589 12.0135 9.0375C12.0135 9.25911 11.9699 9.47854 11.8851 9.68328C11.8003 9.88802 11.6759 10.074 11.5193 10.2307L9 12.75Z" fill="white"></path>
+                      </svg>
+                                        <span class="text">VIEW AVAILABLE HOMES</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a target="" href="#0" class="scroll-arrow">
+                    <svg width="16" height="26" viewBox="0 0 16 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.29289 25.7071C7.68342 26.0976 8.31658 26.0976 8.70711 25.7071L15.0711 19.3431C15.4616 18.9526 15.4616 18.3195 15.0711 17.9289C14.6805 17.5384 14.0474 17.5384 13.6569 17.9289L8 23.5858L2.34315 17.9289C1.95262 17.5384 1.31946 17.5384 0.928931 17.9289C0.538407 18.3195 0.538407 18.9526 0.928931 19.3431L7.29289 25.7071ZM7 -4.37114e-08L7 25L9 25L9 4.37114e-08L7 -4.37114e-08Z" fill="white"></path>
+            </svg>
+                </a>
+            </section>
+        </div>
+        <section class="passion-section mt-125">
+            <div class="leaf-img">
+                <img src="assets/images/leaf.png" alt="">
+            </div>
+            <div class="container">
+                <div class="gl-heading-box">
+                    <div class="gl-sub-head ">Live better</div>
+                    <div class="heading-text-row flex space-between">
+                        <div class="heading-text">
+                            <h2>Your Home is Our Passion</h2>
+                        </div>
+                        <div class="text-box">
+                            <p class="fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, minima! Minima accusamus reprehenderit ut laborum numquam possimus eum, animi expedita molestias quas ducimus obcaecati odio quam consequuntur laboriosam fugiat
+                                tempora blanditiis beatae! Odit eveniet deserunt officia odio, vero nihil quam.</p>
+                            <div class="btn-box">
+                                <a target="" href="javascript:" class="btn blue">
+                                    <span class="text">Learn more</span>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z" fill="white"></path>
+                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Featured-section mt-5">
+            <div class=" container ">
+                <div class="heading-text-row ">
+                    <div class="text-center text-white ">
+                        <h2>Featured Floor Plans</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="features-box ">
+                <div class="swiper Featuresswiper swiper-initialized swiper-horizontal swiper-pointer-events ">
+                    <div class="swiper-wrapper " id="swiper-wrapper-6f548a70199b47fd " aria-live="off " style="transform: translate3d(-2597.33px, 0px, 0px); transition-duration: 0ms; ">
+                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev " data-swiper-slide-index="0 " style="width: 599.333px; margin-right: 50px; " role="group " aria-label="1 / 3 ">
+                            <a href="javascript:">
+                                <img class="img-fluid " src="assets/images/feature.png " alt="
+                ">
+                            </a>
+                            <div class="sub-box text-center ">
+                                <a href="javascript:" class="text-decoration-none">
+                                    <h3>Woods Cove</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next " data-swiper-slide-index="2 " style="width: 599.333px; margin-right: 50px; " role="group " aria-label="3 / 3 ">
+                            <a href="javascript: ">
+                                <img class="img-fluid " src="assets/images/feature.png" alt="">
+                            </a>
+                            <div class="sub-box text-center ">
+                                <a href="javascript: " class="text-decoration-none">
+                                    <h3>Harbour Side Canted</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-prev " data-swiper-slide-index="0 " style="width: 599.333px; margin-right: 50px; " role="group " aria-label="1 / 3 ">
+                            <a href="javascript: ">
+                                <img class="img-fluid 
+                                     " src="assets/images/feature.png " alt="">
+                            </a>
+                            <div class="sub-box text-center ">
+                                <a href="javascript: " class="text-decoration-none">
+                                    <h3>Woods Cove</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-prev " data-swiper-slide-index="0 " style="width: 599.333px; margin-right: 50px; " role="group " aria-label="1 / 3 ">
+                            <a href="javascript: ">
+                                <img class="img-fluid 
+                                     " src="assets/images/feature.png " alt="">
+                            </a>
+                            <div class="sub-box text-center ">
+                                <a href="javascript: " class="text-decoration-none">
+                                    <h3>Woods Cove</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-prev " data-swiper-slide-index="0 " style="width: 599.333px; margin-right: 50px; " role="group " aria-label="1 / 3 ">
+                            <a href="javascript: " class="text-decoration-none">
+                                <img class="img-fluid 
+                                      " src="assets/images/feature.png " alt="">
+                            </a>
+                            <div class="sub-box text-center ">
+                                <a href="javascript: " class="text-decoration-none">
+                                    <h3>Woods Cove</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next " tabindex="0 " role="button " aria-label="Next slide " aria-controls="swiper-wrapper-6f548a70199b47fd "></div>
+                    <div class="swiper-button-prev " tabindex="0 " role="button " aria-label="Previous slide " aria-controls="swiper-wrapper-6f548a70199b47fd "></div>
+                    <span class="swiper-notification " aria-live="assertive " aria-atomic="true "></span>
+                </div>
+            </div>
+            <div class="banner-buttons ">
+                <a target=" " href="javascript:" class="btn blue">
+                    <span class="text ">VIEW ALL FLOOR PLANS</span>
+                    <svg width="18 " height="18 " viewBox="0 0 18 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+              <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z " fill="white "></path>
+            </svg>
+                </a>
+            </div>
+        </section>
+        <section class="video-section pt-120">
+            <div class="touch-left flex align-center space-between " style="margin-left: 93px; ">
+                <div class="gl-heading-box ">
+                    <div class="gl-sub-head ">VIDEO GALLERY</div>
+                    <div class="heading-text-row flex space-between ">
+                        <div class="heading-text">
+                            <h2>View Guided <br>Tours and More </h2>
+                            <div class="custom-arrows flex ">
+                                <div class="video-slider-wrap custom-swiper next " tabindex="0 " role="button " aria-label="Next slide " aria-controls="swiper-wrapper-73e429c1c9c4c8ab "></div>
+                                <div class="video-slider-wrap custom-swiper prev " tabindex="0 " role="button " aria-label="Previous slide " aria-controls="swiper-wrapper-73e429c1c9c4c8ab "></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-gallery-box ">
+                    <div class="swiper galleryswiper swiper-initialized swiper-horizontal swiper-pointer-events ">
+                        <div class="swiper-wrapper " id="swiper-wrapper-73e429c1c9c4c8ab " aria-live="polite " style="transform: translate3d(-928px, 0px, 0px); transition-duration: 0ms; ">
+                            <div class="swiper-slide swiper-slide-duplicate " data-swiper-slide-index="5 " style="width: 289.333px; margin-right: 20px; " role="group " aria-label="6 / 8 ">
+                                <img class="img-fluid " alt=" " src="assets/images/videogal.jpg ">
+                                <div class="text-box text-white text-left ">
+                                    <div class="heading-box "> Included Features </div>
+                                    <div class="banner-buttons ">
+                                        <a target="_blank " href="javascript:" class="btn blue ">
+                                            <span class="text ">Learn More</span>
+                                            <svg width="18 " height="18 " viewBox="0 0 18 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                          <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z " fill="white "></path>
+                        </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate " data-swiper-slide-index="6 " style="width: 289.333px; margin-right: 20px; " role="group " aria-label="7 / 8 ">
+                                <img class="img-fluid " alt=" " src="assets/images/videogal.jpg ">
+                                <div class="text-box text-white text-left ">
+                                    <div class="heading-box "> Customer Testimonials </div>
+                                    <div class="banner-buttons ">
+                                        <a target="_blank " href="javascript:" class="btn blue ">
+                                            <span class="text ">Learn More</span>
+                                            <svg width="18 " height="18 " viewBox="0 0 18 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                          <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z " fill="white "></path>
+                        </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev " data-swiper-slide-index="7 " style="width: 289.333px; margin-right: 20px; " role="group " aria-label="8 / 8 ">
+                                <img class="img-fluid " alt=" " src="assets/images/videogal.jpg ">
+                                <div class="text-box text-white text-left ">
+                                    <div class="heading-box "> Model Home Tours </div>
+                                    <div class="banner-buttons ">
+                                        <a target="_blank " href="javascript:" class="btn blue ">
+                                            <span class="text ">Learn More</span>
+                                            <svg width="18 " height="18 " viewBox="0 0 18 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                          <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z " fill="white "></path>
+                        </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-active " data-swiper-slide-index="0 " style="width: 289.333px; margin-right: 20px; " role="group " aria-label="1 / 8 ">
+                                <img class="img-fluid" src="assets/images/videogal.jpg
+                                    " alt=" ">
+                                <div class="text-box text-white text-left ">
+                                    <div class="heading-box "> Land Opportunities </div>
+                                    <div class="banner-buttons ">
+                                        <a target="_blank " href="javascript:" class="btn blue ">
+                                            <span class="text ">Learn More</span>
+                                            <svg width="18 " height="18 " viewBox="0 0 18 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                          <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z " fill="white "></path>
+                        </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide " data-swiper-slide-index="6 " style="width: 289.333px; margin-right: 20px; " role="group " aria-label="7 / 8 ">
+                                <img class="img-fluid " alt=" " src="assets/images/videogal.jpg ">
+                                <div class="text-box text-white text-left ">
+                                    <div class="heading-box "> Customer Testimonials </div>
+                                    <div class="banner-buttons ">
+                                        <a target="_blank " href="javascript:" class="btn blue ">
+                                            <span class="text ">Learn More</span>
+                                            <svg width="18 " height="18 " viewBox="0 0 18 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                          <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z " fill="white "></path>
+                        </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate-prev " data-swiper-slide-index="7 " style="width: 289.333px; margin-right: 20px; " role="group " aria-label="8 / 8 ">
+                                <img class="img-fluid " alt=" " src="assets/images/videogal.jpg ">
+                                <div class="text-box text-white text-left ">
+                                    <div class="heading-box "> Model Home Tours </div>
+                                    <div class="banner-buttons ">
+                                        <a target="_blank " href="javascript:" class="btn blue ">
+                                            <span class="text ">Learn More</span>
+                                            <svg width="18 " height="18 " viewBox="0 0 18 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                          <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z " fill="white "></path>
+                        </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active " data-swiper-slide-index="0 " style="width: 289.333px; margin-right: 20px; " role="group " aria-label="1 / 8 ">
+                                <img class="img-fluid
+                                    " alt=" " src="assets/images/videogal.jpg ">
+                                <div class="text-box text-white text-left ">
+                                    <div class="heading-box "> Land Opportunities </div>
+                                    <div class="banner-buttons ">
+                                        <a target="_blank " href="javascript:" class="btn blue ">
+                                            <span class="text ">Learn More</span>
+                                            <svg width="18 " height="18 " viewBox="0 0 18 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                          <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z " fill="white "></path>
+                        </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next " data-swiper-slide-index="1 " style="width: 289.333px; margin-right: 20px; " role="group " aria-label="2 / 8 ">
+                                <img class="img-fluid
+                                    " alt=" " src="assets/images/videogal.jpg">
+                                <div class="text-box text-white text-left ">
+                                    <div class="heading-box "> Riversea Plantation <br> Updates </div>
+                                    <div class="banner-buttons ">
+                                        <a target="_blank " href="javascript:" class="btn blue ">
+                                            <span class="text ">Learn More</span>
+                                            <svg width="18 " height="18 " viewBox="0 0 18 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                          <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z " fill="white "></path>
+                        </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate " data-swiper-slide-index="2 " style="width: 289.333px; margin-right: 20px; " role="group " aria-label="3 / 8 ">
+                                <img class="img-fluid " alt=" " src="assets/images/videogal.jpg ">
+                                <div class="text-box text-white text-left ">
+                                    <div class="heading-box "> Compass Pointe Updates </div>
+                                    <div class="banner-buttons ">
+                                        <a target="_blank " href="javascript:" class="btn blue ">
+                                            <span class="text ">Learn More</span>
+                                            <svg width="18 " height="18 " viewBox="0 0 18 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                          <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z " fill="white "></path>
+                        </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="swiper-notification " aria-live="assertive " aria-atomic="true "></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="story-section pt-125">
+            <div class="leaf-img ">
+                <img src="assets/images/leaf-left.png" alt="">
+            </div>
+            <div class="container ">
+                <div class="gl-heading-box " style="background-image: url(assets/images/storybg.jpg ); " data-ll-status="loaded ">
+                    <div class="gl-sub-head ">Our Story</div>
+                    <div class="heading-text-row ">
+                        <div class="heading-text">
+                            <h2 class="text-white">Building Homes with Care and Integrity For More Than 25 Years</h2>
+                            <div class="banner-buttons ">
+                                <a target=" " href="javascript: " class="btn white learnmore">
+                                    <span class="text ">Learn More</span>
+                                    <svg width="18 " height="18 " viewBox="0 0 18 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                      <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z " fill="white "></path>
+                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-box ">
+                    <img class="img-fluid " src="assets/images/team.jpg " alt=" " />
+                </div>
+            </div>
+        </section>
+        <section class="feedback-section pt-100">
+            <div class="leaf-img ">
+                <img src="assets/images/leaf.png" alt="">
+            </div>
+            <div class="container ">
+                <div class="feedback-container ">
+                    <div class="gl-heading-box text-center ">
+                        <div class="gl-sub-head ">CLIENT FEEDBACK</div>
+                        <h2>What Our Homeowners Are Saying</h2>
+                    </div>
+                    <div class="swiper feedbackswiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-autoheight ">
+                        <div class="swiper-wrapper " style="transition-duration: 0ms; transform: translate3d(-2835px, 0px, 0px); height: 238px; " id="swiper-wrapper-c6cd83fe8d1007f55 " aria-live="off ">
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next " data-swiper-slide-index="3 " style="width: 945px; " role="group " aria-label="4 / 4 ">
+                                <div class="gl-heading-box ">
+                                    <div class="heading-text-row ">
+                                        <div class="heading-text text-grey text-center ">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores dicta voluptas, minus est inventore totam aliquam minima consectetur voluptate hic deserunt, exercitationem corporis illum nemo sunt
+                                                a quo eius?</p>
+                                            <div class="client-name">
+                                                <h5>GAYLE PFEIFFER</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide " data-swiper-slide-index="0 " style="width: 945px; " role="group " aria-label="1 / 4 ">
+                                <div class="gl-heading-box ">
+                                    <div class="heading-text-row ">
+                                        <div class="heading-text text-grey text-center ">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores dicta voluptas, minus est inventore totam aliquam minima consectetur voluptate hic deserunt, exercitationem corporis illum nemo sunt
+                                                a quo eius?</p>
+                                            <div class="client-name">
+                                                <h5>GAYLE PFEIFFER</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" style="width: 945px;" role="group" aria-label="2 / 4">
+                                <div class="gl-heading-box">
+                                    <div class="heading-text-row">
+                                        <div class="heading-text text-grey text-center">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores dicta voluptas, minus est inventore totam aliquam minima consectetur voluptate hic deserunt, exercitationem corporis illum nemo sunt
+                                                a quo eius?</p>
+                                            <div class="client-name">
+                                                <h5>GAYLE PFEIFFER</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2" style="width: 945px;" role="group" aria-label="3 / 4">
+                                <div class="gl-heading-box">
+                                    <div class="heading-text-row">
+                                        <div class="heading-text text-grey text-center">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores dicta voluptas, minus est inventore totam aliquam minima consectetur voluptate hic deserunt, exercitationem corporis illum nemo sunt
+                                                a quo eius?</p>
+                                            <div class="client-name">
+                                                <h5>GAYLE PFEIFFER</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="3" style="width: 945px;" role="group" aria-label="4 / 4">
+                                <div class="gl-heading-box">
+                                    <div class="heading-text-row">
+                                        <div class="heading-text text-grey text-center">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores dicta voluptas, minus est inventore totam aliquam minima consectetur voluptate hic deserunt, exercitationem corporis illum nemo sunt
+                                                a quo eius?</p>
+                                            <div class="client-name">
+                                                <h5>GAYLE PFEIFFER</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 945px;" role="group" aria-label="1 / 4">
+                                <div class="gl-heading-box">
+                                    <div class="heading-text-row">
+                                        <div class="heading-text text-grey text-center">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores dicta voluptas, minus est inventore totam aliquam minima consectetur voluptate hic deserunt, exercitationem corporis illum nemo sunt
+                                                a quo eius?</p>
+                                            <div class="client-name">
+                                                <h5>GAYLE PFEIFFER</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                            <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+                            <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 3" aria-current="true"></span>
+                            <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                    <div class="banner-buttons text-center">
+                        <a target="" href="javascript:" class="btn blue">
+                            <span class="text">View All</span>
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z" fill="white"></path>
+                </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news-section pt-125">
+            <div class="container">
+                <div class="news-update flex space-between align-center">
+                    <div class="gl-heading-box">
+                        <div class="gl-sub-head">News</div>
+                        <div class="heading-text-row">
+                            <div class="heading-text">
+                                <h2>Latest <br> Updates </h2>
+                            </div>
+                            <div class="text-box">
+                                <p>Curious about what we’re up to? Check out our blog for the latest information on the homes we’re building, featured communities, team updates, recent awards, and more!</p>
+                                <div class="btn-box">
+                                    <a target="" href="javascript:" class="btn blue">
+                                        <span class="text">View Blog</span>
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.003 7.0605L5.54775 13.5157L4.48725 12.4552L10.9418 6H5.253V4.5H13.503V12.75H12.003V7.0605Z" fill="white"></path>
+                      </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-img-box flex space-between">
+                        <div class="news-detail">
+                            <a href="javascript:">
+                                <img class="img-fluid" src="assets/images/1.jpg" alt="">
+                            </a>
+                            <div class="detail-text">
+                                <div class="sub-head text-white mb-50">News</div>
+                                <a href="javascript:" class="text-decoration-none">
+                                    <h3 class="text-white">Feature community: <br> st. James plantation</h3>
+                                </a>
+                                <div class="date-box flex">
+                                    <div class="number text-white"> 09 </div>
+                                    <div class="month text-white"> SEP </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-detail">
+                            <a href="javascript:">
+                                <img class="img-fluid" src="assets/images/2.jpg" alt="">
+                            </a>
+                            <div class="detail-text">
+                                <div class="sub-head text-white mb-50">News</div>
+                                <a href="javascript:" class="text-decoration-none">
+                                    <h3 class="text-white">Floorpaln the <br> Calibouge</h3>
+                                </a>
+                                <div class="date-box flex">
+                                    <div class="number text-white"> 08 </div>
+                                    <div class="month text-white"> MAR </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section pt-120" id="contact-home">
+            <div class="leaf-img">
+                <img src="assets/images/leaf.png" alt="">
+            </div>
+            <div class="container">
+                <div class="gl-heading-box">
+                    <div class="gl-sub-head ">DISCOVER THE HAGOOD DIFFERENCE</div>
+                    <div class="heading-text-row flex space-between">
+                        <div class="heading-text">
+                            <h2> Dwonload Your Free Home Guide</h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form>
+                        <div class="row form-group">
+
+                            <div class="row col-md-4">
+                                <input type="text" placeholder="Full Name*" required />
+                            </div>
+                            <div class="col-md-4">
+                                <input type="email" placeholder="Email*" required />
+                            </div>
+                            <div class="col-md-4">
+                                <input type="phone" placeholder="Phone Number*" required />
+
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+
+
+                            <label class="">Your Interest*</label>
+                            <br>
+                            <select required>
+                      <option value="">Wilmington, Leland & Surrounding Areas</option>
+                      <option value="">Other</option>
+                     
+                    </select>
+
+
+                        </div>
+                        <div class="row form-group">
+
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Your Meassage "></textarea>
+                        </div>
+                        <div class="submit-button">
+                            <p>
+                                <button type="submit" class="">DOWNLOAD MY GUIDE</button>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        </main>
+        <footer class="site-footer">
+            <div class="container">
+
+
+                <div class="footer-inr flex space-between">
+                    <div class="footer-logo">
+                        <a href="javascript:">
+                            <img src="assets/images/footer-logo.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="footer-add">
+                        <p class="text-white">Lumina Station, 1908 Eastwood Road, Suite 328, Wilmington, NC 28403</p>
+                    </div>
+                </div>
+
+
+                <div class="banner-buttons text-center">
+                    <a href="javascript:" class="btn white m-hover">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 16.5C3 14.9087 3.63214 13.3826 4.75736 12.2574C5.88258 11.1321 7.4087 10.5 9 10.5C10.5913 10.5 12.1174 11.1321 13.2426 12.2574C14.3679 13.3826 15 14.9087 15 16.5H13.5C13.5 15.3065 13.0259 14.1619 12.182 13.318C11.3381 12.4741 10.1935 12 9 12C7.80652 12 6.66193 12.4741 5.81802 13.318C4.97411 14.1619 4.5 15.3065 4.5 16.5H3ZM9 9.75C6.51375 9.75 4.5 7.73625 4.5 5.25C4.5 2.76375 6.51375 0.75 9 0.75C11.4862 0.75 13.5 2.76375 13.5 5.25C13.5 7.73625 11.4862 9.75 9 9.75ZM9 8.25C10.6575 8.25 12 6.9075 12 5.25C12 3.5925 10.6575 2.25 9 2.25C7.3425 2.25 6 3.5925 6 5.25C6 6.9075 7.3425 8.25 9 8.25Z" fill="#3D707F"></path>
+                  </svg>
+                        <span class="text">CONTACT AN AGENT</span>
+                    </a>
+                    <a href="javascript:" class="btn white m-hover">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 15C15 15.1989 14.921 15.3897 14.7803 15.5303C14.6397 15.671 14.4489 15.75 14.25 15.75H3.75C3.55109 15.75 3.36032 15.671 3.21967 15.5303C3.07902 15.3897 3 15.1989 3 15V8.25H0.75L8.49525 1.209C8.63333 1.08336 8.81331 1.01373 9 1.01373C9.18669 1.01373 9.36667 1.08336 9.50475 1.209L17.25 8.25H15V15ZM13.5 14.25V6.86775L9 2.77725L4.5 6.86775V14.25H13.5ZM9 12.75L6.48075 10.2307C6.32405 10.074 6.19975 9.88802 6.11494 9.68328C6.03014 9.47854 5.98649 9.25911 5.98649 9.0375C5.98649 8.81589 6.03014 8.59646 6.11494 8.39172C6.19975 8.18698 6.32405 8.00095 6.48075 7.84425C6.63745 7.68755 6.82348 7.56325 7.02822 7.47844C7.23296 7.39364 7.45239 7.34999 7.674 7.34999C7.89561 7.34999 8.11504 7.39364 8.31978 7.47844C8.52452 7.56325 8.71055 7.68755 8.86725 7.84425L9 7.977L9.13275 7.84425C9.28945 7.68755 9.47548 7.56325 9.68022 7.47844C9.88496 7.39364 10.1044 7.34999 10.326 7.34999C10.5476 7.34999 10.767 7.39364 10.9718 7.47844C11.1765 7.56325 11.3626 7.68755 11.5193 7.84425C11.6759 8.00095 11.8003 8.18698 11.8851 8.39172C11.9699 8.59646 12.0135 8.81589 12.0135 9.0375C12.0135 9.25911 11.9699 9.47854 11.8851 9.68328C11.8003 9.88802 11.6759 10.074 11.5193 10.2307L9 12.75Z" fill="white"></path>
+                  </svg>
+                        <span class="text">TAKE A VIRTUAL TOUR</span>
+                    </a>
+                </div>
+
+
+                <div class="footer-lower-wrap">
+                    <div class="container">
+                        <div class="footer-inr-lower flex align-center space-between">
+                            <div class="footer-social-icons flex space-between align-center">
+                                <ul>
+                                    <li>
+                                        <a href="javascript:">
+                                            <img class="img-fluid" src="assets/images/facebook.png" alt="" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <img class="img-fluid" src="assets/images/instagram.png" alt="" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <img class="img-fluid " src="assets/images/git.png" alt="" />
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="ftr-lwr-rt">
+                                <p class="text-white">
+                                    © Hagoods Homes. All Right Reserved.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.0.4/swiper-bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
